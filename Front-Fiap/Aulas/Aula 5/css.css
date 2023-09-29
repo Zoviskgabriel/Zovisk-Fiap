@@ -1,0 +1,18 @@
+/* Tag */
+article {
+    background-color: lightgrey;
+}
+/* Classe */
+fonte {
+    font-family: 'Courier New', 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+/*  */
+.corfundo {
+    background-color: red;
+    font-size: 50px;
+}
+/* id somente UM */
+#id2 {
+    background-color: lightgray;
+}
