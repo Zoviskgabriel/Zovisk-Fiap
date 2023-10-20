@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!-- Lista sem ordenação -->
+        <ul>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+        </ul>
+        <!-- Lista ordenada -->
+        <ol>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+        </ol>
+
+        <!-- Quebra de conteúdo -->
+        <hr>
+            <!-- Tabela usado para demonstração de conteúdo -->
+            <table border="1">
+                <tr>
+                    <td>Célula 1</td>
+                    <td>Célula 2</td>
+                    <td>Célula 3</td>
+                </tr>
+                <tr>
+                    <td>Célula 4</td>
+                    <td>Célula 5</td>
+                    <td>Célula 6</td>
+                </tr>
+                <tr>
+                    <td>Célula 7</td>
+                    <td>Célula 8</td>
+                    <td>Célula 9</td>
+                </tr>
+            </table>
+
+            <hr>
+            <!-- span serve para programação específica em um
+            pedaço de conteúdo textual -->
+            <!-- Exemplo de evento na tag span -->
+            Teste 1 <span onclick="F()" style="background-color: blueviolet;"> Teste 2 </span> Teste 3
+            <p> Parágrafo - um conceito ou descrição de  </p>
+            
+            <hr>
+
+            <!-- div é uma camada do conteúdo
+            do html que serve para organização
+            de componentes -->
+                <!-- a propriedade style representa o CSS INLINE
+                INLINE - significa formação pontual na TAG -->
+            <!-- a propriedade background-color
+            representa a formação da cor do fundo 
+            de um componente HTML-->
+
+            <div style="background-color: red;position: absolute;top: 600px;">
+                Este é uma camada que
+                agrupa elementos em
+                tela/frame/screen.
+
+                <div style="background-color: green;position: absolute;top: 100px;">
+                    DIV INTERNA 
+                </div>
+            </div>
+
+            <div style="background-color: blue;position: absolute;top: 100px;">
+                Este é uma camada que
+                agrupa elementos em
+                tela/frame/screen.
+            </div>
+
+            <hr>
+
+            <!-- Exemplo de evento na tag span -->
+            <script>
+                function F(){
+                    alert("teste")
+                }
+            </script>
+    </body>
+</html>
