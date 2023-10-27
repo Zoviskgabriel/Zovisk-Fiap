@@ -1,0 +1,58 @@
+/* arquivo   css.css  */
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas */
+
+/* page é um ID único - significa que ele executa em um elemento da pagina. */
+#page {
+    display: grid;
+    width: 100%;
+    height: 250px;
+    grid-template-areas:
+        "head main"
+        "nav  main"
+        "nav  foot";
+    grid-template-rows: 50px 1fr 30px;
+    grid-template-columns: 150px 1fr;
+}
+
+#page>header {
+    /* grid-area: o nome da tag dentro da template AREA */
+    grid-area: head;
+    background-color: #8ca0ff;
+}
+
+#page>nav {
+
+    grid-area: nav;
+    background-color: #ffa08c;
+}
+
+#page>main {
+    grid-area: main;
+    background-color: #ffff64;
+}
+
+#page>footer {
+    grid-area: foot;
+    background-color: #8cffa0;
+}
+.container{
+    display: grid;
+    width: 100px;
+    height: 100px;
+    grid-template-areas:
+    "A B"
+    "B A" ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.item1{
+    grid-area: A;
+    background-color: red;
+}
+
+.item2{
+    grid-area: B;
+    background-color: #8cffa0;
+}
