@@ -1,0 +1,23 @@
+
+.container{
+    display: grid;
+    width: 100px;
+    height: 100px;
+    grid-template-areas:
+    "B"
+    "A" ;
+    /* grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; */
+}
+
+.item1{
+    grid-area: A;
+    background-color: red;
+}
+
+.item2{
+    grid-area: B;
+    background-color: #8cffa0;
+}
+
+
