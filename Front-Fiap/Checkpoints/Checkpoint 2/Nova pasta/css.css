@@ -1,0 +1,110 @@
+
+
+
+#bar{
+    color: #b3b3b5;
+    background-color: #fcf7f7;
+    
+    margin: 0px;
+    position: relative;
+    bottom: 15px;
+    right: 10px;  
+    line-height: 20px;
+    
+}
+
+.endereco{
+    color: #59595a;
+    position: relative;
+    top: -10px;
+    left: 370px;
+    font-size: 11px ;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+#location-image{
+    position: relative;
+    top: 12px;
+    left: 380px;
+    
+}
+/* #numero{
+    color: #59595a;
+    position: relative;
+    top: -73px;
+    left: 790px;
+    font-size: 50px;
+    
+} */
+
+#phone-image{
+    position: relative;
+    top: -27px;
+    left: 780px;
+}
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+  
+
+.header0{
+    background-color: #ffffff;
+}
+#image-icr{
+    position: relative;
+    bottom: -20px;
+    left: 320px;
+}
+#image-central{
+    position: relative;
+    bottom: -2px;
+    left: 350px;
+}
+#mid-bar{
+    position: relative;
+    margin-top: 10px;
+    bottom: -20px;
+    left: -10px;
+    width: 1920px;
+    height: 50px;
+    background-color: #1e1b54;
+}
+.body0{
+
+}
+#principal-img{
+    display: block;
+    position: relative;
+    top: 20px;
+    left: -10px;
+}
+
+
+
+#fooster-bar{
+    background-color: #1e1b54;
+    height: 250px;
+    width: 1920px;
+    position: relative;
+    left: -10px;
+}
+#barra-final{
+    color: white;
+    background-color: #5fa9ac;
+    height: 60px;
+    width: 1920px;
+    position: relative;
+    left: -10px;
+    top: -18px;
+    text-align: center;
+    line-height: 60px;
+    
+}
+#creditos{
+    position: relative;
+    
+}
