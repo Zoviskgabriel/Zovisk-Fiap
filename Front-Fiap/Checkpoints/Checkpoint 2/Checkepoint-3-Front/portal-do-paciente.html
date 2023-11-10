@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Paciente - Instituto da Criança - FMUSP</title>
+    <link rel="stylesheet" href="./css.css">
+
+    <!-- Pegar arquivo fora da página, na Web -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="principal">
+    <header>
+
+          <!-- TOPO -->
+            <div id="bar">
+
+                <img src="https://icr.usp.br/wp-content/uploads/2017/11/location_ico.png"  id="location-image">
+                <li>
+                    <a  href= "https://www.google.com.br/maps/place/Instituto+da+Crian%C3%A7a+e+do+Adolescente+-+ICr+HCFMUSP/@-23.5555808,-46.6753899,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce5787201231c3:0x3f33dfaadb4d9d13!8m2!3d-23.5555857!4d-46.672815!16s%2Fg%2F120s7318?entry=ttu" class="endereco">AV. DR. ENÉAS CARVALHO DE AGUIAR, 647, SÃO PAULO - SP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (11) 2661-8500</a>
+                </li>
+                <img src="https://icr.usp.br/wp-content/uploads/2017/11/phone_ico.png" id="phone-image">
+
+                <!-- CAMPO DE PESQUISA -->
+                <div class="pesquisar">
+                    <input type="text">
+                    <button class="button">PESQUISAR</button>
+                </div>
+
+            </div>
+
+          <!-- CABEÇALHO -->
+            <div class="header0">
+              <img src="https://icr.usp.br/wp-content/uploads/2022/04/logo-1.png" id="image-icr">
+              <img src="https://icr.usp.br/wp-content/uploads/2017/11/logos_icr_parceiros.png" id="image-central">
+              <!-- BARRA DE NAVEGAÇÃO -->
+              <div id="mid-bar" class="navegacao">
+                <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1e1b54;">
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+
+                      <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">HOME</a>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          PACIENTES E ACOMPANHANTES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="./portal-do-paciente.html">PORTAL DO PACIENTE</a>
+                          <a class="dropdown-item" href="#">EQUIPE E UNIDADES ASSISTENCIAIS</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/ouvidoria/">OUVIDORIA</a>
+                        </div>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          PROFISSIONAIS DA SAÚDE
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="./enfermagem.html">ENFERMAGEM</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/framacia/">FARMÁCIA</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/fisioterapia/">FISIOTERAPIA</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/fonoaudiologia/">FONOAUDIOLOGIA</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/nutricao/">NUTRIÇÃO</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/odontologia/">ODONTOLOGIA</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/psicologia/">PSICOLOGIA</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/servico-social/">SERVIÇO SOCIAL</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/terapia-ocupacional/">TERAPIA OCUPACIONAL</a>
+                        </div>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          ENSINO E PESQUISA
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">CURSOS</a>
+                          <a class="dropdown-item" href="#">PESQUISA</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/biblioteca/">BIBLIOTECA</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/telemedicina/">TELEMEDICINA</a>
+                        </div>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          O HOSPITAL
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="http://www.hc.fm.usp.br/">HCFMUSP</a>
+                          <a class="dropdown-item" href="#">SOBRE O ICR</a>
+                          <a class="dropdown-item" href="#">RESPONSABILIDADE SOCIAL</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/imprensa/">IMPRENSA</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/doacoes/">DOAÇÕES</a>
+                        </div>
+                      </li>
+
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          CAMPANHAS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="https://icr.usp.br/milmotivosparadoar/">MIL MOTIVOS PARA DOAR</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/agostodourado/">AGOSTO DOURADO</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/manual-doencas-raras/">GUIA PRÁTICO DE DOENÇAS RARAS</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/brincar/">CAMPANHA BRINCAR</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/sauderenal/">DIA MUNDIAL DO RIM</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/novembro-roxo/">NOVEMBRO ROXO</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/maio-laranja/">MAIO LARANJA - 2022</a>
+                          <a class="dropdown-item" href="https://icr.usp.br/campanha-de-saude-oral-infantil/">CAMPANHA DE SAÚDE ORAL INFANTIL</a>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>
+
+          <!-- BODY -->
+            <div id="body-portal">
+                <!-- topo -->
+                <div class="top_body_portal">
+                  <div class="portal_paciente text">
+                    <a href="./index.html" class="text ">INÍCIO</a> >> Portal do Paciente
+                  </div>
+                </div>
+                <!-- conteúdo -->
+                <div class="conteudo_portal">
+                  <h1><b>Portal do Paciente</b></h1>
+                  <br>
+                  <img src="https://icr.usp.br/wp-content/uploads/2017/12/icr-botao.jpg">
+                  <br>
+                  <br>
+                  <p>
+                    Para reagendamento ou outras informações, nosso atendimento é de segunda a sexta-feira, das 7h às 16h pessoalmente, no 2º andar do Instituto da<br>
+                    Criança ou pelo telefone 2661-8548/ 2661-8670.
+                  </p>
+                  <br>
+                  <br>
+                  <br>
+                  <h2 class="text_portal"><b>Agendamento de Exames</b></h2>
+                  <h2 class="text_portal">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <b>Horários de Visita</b>
+                  </h2>
+                  <br>
+                  <h2 class="text_portal">Instituto da Criança</h2>
+                  <br>
+                  <!-- Tabela 1 -->
+                  <table class="table-borderless" id="tabela">
+                    <thead class="thead-dark">
+                      <tr class="tr1">
+                        <th scope="col">UNIDADE</th>
+                        <th scope="col">HORÁRIO</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="td1">Cirurgia Infantil</td>
+                        <td class="td1"></td>
+                      </tr>
+                      <tr>
+                        <td class="td1">Especialidades 1</td>
+                        <td class="td1"></td>
+                      </tr>
+                      <tr>
+                        <td class="td1">Pediatria Clínica</td>
+                        <td class="td1">14h às 17h</td>
+                      </tr>
+                      <tr>
+                        <td class="td1">Terapia Intensiva Pediátrica</td>
+                        <td class="td1"></td>
+                      </tr>
+                      <tr>
+                        <td class="td1">Especialidades 1</td>
+                        <td class="td1">20h às 22h</td>
+                      </tr>
+                      <tr>
+                        <td class="td1">Terapia Renal Substitutiva</td>
+                        <td class="td1"></td>
+                      </tr>
+                      <tr>
+                        <td class="td1">Terapia Renal Substitutiva</td>
+                        <td class="td1"></td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Terapia Intensiva Neonatal</td>
+                        <td class="td2">14h às 17h</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <br>
+                  <br>
+                  <br>
+                  <h2 class="text_portal">ITACI</h2>
+                  <br>
+                  <!-- Tabela 2 -->
+                  <table class="table-borderless" id="tabela">
+                    <thead class="thead-dark">
+                      <tr class="tr1">
+                        <th scope="col">UNIDADE</th>
+                        <th scope="col">HORÁRIO</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="td1">Transplante de Medula</td>
+                        <td class="td1">14h às 21h</td>
+                      </tr>
+                      <tr>
+                        <td class="td1">Enfermaria</td>
+                        <td class="td1">14h às 22h</td>
+                      </tr>
+                      <tr>
+                        <td class="td2">Terapia Intensiva</td>
+                        <td class="td2">14h às 17h</td>
+                      </tr>
+                      <tr>
+                        <td class="td2"></td>
+                        <td class="td2">20h às 22h</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <br>
+                  <br>
+                  <!-- Tabela 3 -->
+                  <table class="table-borderless" id="tabela2">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col" class="td3">UNIDADE</th>
+                        <th scope="col" class="td4">HORÁRIO</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="td3">Transplante de Medula</td>
+                        <td class="td4">14h às 21h</td>
+                      </tr>
+                      <tr>
+                        <td class="td3">Enfermaria</td>
+                        <td class="td4">14h às 22h</td>
+                      </tr>
+                      <tr>
+                        <td class="td3">Terapia Intensiva</td>
+                        <td class="td4">14h às 17h</td>
+                      </tr>
+                      <tr>
+                        <td class="td3"></td>
+                        <td class="td4">20h às 22h</td>
+                      </tr>
+                      <tr>
+                        <td class="td3">&nbsp;</td>
+                        <td class="td4"> </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <br>
+                  <p>
+                    Para a troca de acompanhantes, de visitas e do número de pessoas que poderão permanecer à beira leito, peça informação à equipe de enfermagem<br>
+                    na unidade na qual a sua criança/adolescente estiver internada.<br>
+                    <br>
+                    <br>
+
+                    <a href="https://icr.usp.br/wp-content/uploads/2017/12/Manual-de-Internac%CC%A7a%CC%83o.pdf" style="color: black;"><b>Clique aqui</b></a> para baixar o Manual de Internação.
+                  </p>
+                
+                </div>
+            </div>
+
+          <!-- RODAPÉ -->
+            <div class="fooster">
+                <div id="fooster-bar">
+
+                  <!-- Coluna 1 - Links Úteis -->
+                  <div class="img_links_uteis">
+                    <img src="https://icr.usp.br/wp-content/uploads/2022/04/download.png">
+                    <br>
+                    <br>
+                    <a href="https://sigma.icr.usp.br/login.aspx?ReturnUrl=%2frestrito%2fdefault.aspx" class="text">> Portal Sigma</a>
+                    <br>
+                    <a href="https://www.itaci.org.br/" class="text">> ITACI</a>
+                    <br>
+                    <a href="https://portalpaciente.icr.usp.br/" class="text">> Portal do Paciente</a>
+                  </div>
+
+                  <!-- Coluna 2 - Contatos -->
+                  <div class="img_contato">
+                    <img src="https://icr.usp.br/wp-content/uploads/2022/04/contatos.png" >
+                    <br>
+                    <br>
+                    <p class="text">> Telefone(s) e horários</p>
+                    <img src="https://icr.usp.br/wp-content/uploads/2022/04/icon-location.png">
+                    <img src="https://icr.usp.br/wp-content/uploads/2022/04/icon-youtube.png">
+                    <img src="https://icr.usp.br/wp-content/uploads/2022/04/icon-facebook.png">
+                    <img src="https://icr.usp.br/wp-content/uploads/2022/04/icon-instagram.png">
+                  </div>
+
+                  <!-- Coluna 3 - Selo/Apps -->
+                  <div class="img_selo">
+                    <img src="https://icr.usp.br/wp-content/uploads/2022/04/ona.png" >
+                    <br>
+                    <br>
+                    <img src="https://icr.usp.br/wp-content/uploads/2022/04/googleplay-300x89.png" width="110" height="32.63">
+                    &nbsp;
+                    <img src="https://icr.usp.br/wp-content/uploads/2022/04/appstore-300x89.png" width="110" height="32.63">
+                  </div>
+
+                </div>
+
+                <!-- barra do final -->
+                <div id="barra-final">
+                    <p class="creditos text">® TODOS OS DIREITOS RESERVADOS. INSTITUTO DA CRIANÇA E DO ADOLESCENTE</p>
+                </div>
+
+            </div>
+    </header>
+  </div>
+
+    <!-- Link do Js do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

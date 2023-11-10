@@ -1,0 +1,288 @@
+
+
+/* TOPO */
+.bar{
+    color: #b3b3b5;
+    background-color: #fcf7f7;
+    
+    margin: 0px;
+    position: relative;
+    bottom: 15px;
+    right: 10px;  
+    line-height: 20px;
+    
+}
+    .endereco{
+        color: #59595a;
+        position: relative;
+        
+        left: 360px;
+        font-size: 11px ;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .location-image{
+        position: relative;
+        top: 20px;
+        left: 350px;
+        
+    }
+    #phone-image{
+        position: relative;
+        top: -20px;
+        left: 727px;
+    }
+
+    .pesquisar {
+        position: relative;
+        top: -35px;
+        left: 1200px;
+    }
+    .button {
+        color: white;
+        background-color: rgb(94, 197, 163);
+        border: rgb(92, 197, 162);
+        height: 27px;
+        width: 150px;
+    }
+
+/* #numero{
+    color: #59595a;
+    position: relative;
+    top: -73px;
+    left: 790px;
+    font-size: 50px;
+    
+} */
+
+/* LOGOS */
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+
+.header0{
+    background-color: #ffffff;
+}
+.image-icr{
+    position: relative;
+    bottom: -20px;
+    left: 320px;
+}
+.image-central{
+    position: relative;
+    bottom: -2px;
+    left: 350px;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+.mid-bar{
+    position: relative;
+    margin-top: 10px;
+    bottom: -20px;
+    left: -10px;
+    width: 1920px;
+    height: 50px;
+    background-color: #1e1b54;
+}
+    .navegacao {
+        display: flex;
+        justify-content: center;
+        background-color: #1e1b54;
+    }   
+
+/* CORPO DO SITE */
+.body0{
+
+}
+
+    #principal-img{
+        display: block;
+        position: relative;
+        top: 20px;
+        left: -10px;
+    }
+
+
+
+/* INFORMAÇÕES FINAIS */
+.fooster-bar{
+    background-color: #1e1b54;
+    display: grid;
+    height: 270px;
+    width: 1920px;
+    left: -10px;
+
+    grid-template-areas:
+    "Link Contato Selo";
+    grid-template-columns: 150px 150px 250px;
+    
+}
+
+    /* Coluna 1 - Links Úteis */
+    .img_links_uteis {
+        grid-area: Link;
+        position: relative;
+        bottom: -50px;
+        left: 320px;
+
+    }
+
+    /* Coluna 2 - Contatos */
+    .contato {
+        grid-area: Contato;
+        position: relative;
+        bottom: -50px;
+        left: 600px;
+    }
+
+
+    /* Coluna 3 - Apps */
+    .img_selo {
+        grid-area: Selo;
+        position: relative;
+        bottom: -50px;
+        left: 875px;
+    }
+
+    .text {
+        color: white;
+        font-size: 13px;
+
+    }
+
+/* RODAPÉ */
+.barra-final{
+    background-color: #5fa9ac;
+    height: 60px;
+    width: 1920px;
+    position: relative;
+    left: -10px;
+    top: -18px;
+    text-align: center;
+    line-height: 60px;
+        
+}
+    #creditos{
+        position: relative;
+        
+    }
+
+
+/* ---------------------------------- PORTAL DO PACIENTE ---------------------------------- */
+
+#body-portal{
+    background-color: white;
+    display: grid;
+    grid-template-areas:
+    "topo"
+    "conteudo";
+    grid-template-rows: auto;
+    
+}
+    /* TOPO DO PORTAL */
+    .top_body_portal{
+        background: url(https://icr.usp.br/wp-content/uploads/2017/11/breadcumbs_bg.png);
+        display: block;
+        position: relative;
+        grid-area: topo;
+        top: 20px;
+        
+        width: auto;
+        height: 80px;
+    }
+
+    .portal_paciente{
+        position: relative;
+        text-align: center;
+        top: 25px;
+    }
+
+    /* CONTEÚDO DO PORTAL */
+    .conteudo_portal{
+        grid-area: conteudo;
+        position: relative;
+        height: 1400px;
+        top: 65px;
+        left: 320px;
+    }
+
+    .text_portal{
+        font-size: 18px;
+    }
+
+    #tabela{
+        width: 800px;
+        text-align: center;
+    }
+
+        .tr1{
+            background-color: #2b7a91;
+            color: white;
+        }
+
+        .td1{
+            background-color: #d6ebf2;
+        }
+
+        .td2{
+            background-color: #88c6d8;
+        }
+
+    #tabela2{
+        width: 1000px;
+        text-align: center;
+    }
+
+        .td3{
+            background-color: rgb(177, 170, 170) ;
+        }
+
+        .td4{
+            background-color: rgb(206, 202, 202);
+        }
+
+/* --------------------------------------- ENFERMAGEM ------------------------------------------ */
+
+#body-enfermagem{
+    background-color: white;
+    display: grid;
+    grid-template-areas:
+    "img_enfer cont_enfer_1"
+    "cont_enfer_2 cont_enfer_2";
+    grid-template-rows: 480px;
+    grid-template-columns: 950px 670px;
+    height: 1400px;
+    
+}
+    /* CONTEÚDO DA ENFERMAGEM */
+    .img-enfermagem{
+        grid-area: img_enfer;
+        position: relative;
+        top: 80px;
+        left: 470px;
+        
+        width: 353.5px;
+        height: 353.5px;
+    }
+    .text_enfermagem{
+        font-size: 15px;
+        text-align: justify;
+        color: #59595a;
+        
+    }
+    .p-enfermagem-1{
+        grid-area: cont_enfer_1;
+        position: relative;
+        top: 85px;
+        left: -95px;
+    }
+    .p-enfermagem-2{
+        grid-area: cont_enfer_2;
+        position: relative;
+        
+        left: 470px;
+    }
