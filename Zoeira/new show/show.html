@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .alert {
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            display: none;
+            position: fixed;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #3498db;
+            border-radius: 5px;
+            animation: slideIn 0.5s forwards, slideOut 0.5s forwards 3s;
+        }
+
+        @keyframes slideIn {
+            from {
+                top: -60px;
+            }
+            to {
+                top: 10px;
+            }
+        }
+
+        @keyframes slideOut {
+            from {
+                top: 10px;
+            }
+            to {
+                top: -60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="alert" id="myAlert">
+        Alerta Colorido!
+    </div>
+
+    <script>
+        function showAlert() {
+            const alert = document.getElementById('myAlert');
+            alert.style.backgroundColor = getRandomColor();
+            alert.style.display = 'block';
+
+            setTimeout(() => {
+                alert.style.display = 'none';
+            }, 3000);
+        }
+
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        // Chame a função showAlert para mostrar o alerta colorido.
+        showAlert();
+    </script>
+</body>
+</html>
