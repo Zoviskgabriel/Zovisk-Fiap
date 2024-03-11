@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Evita que a tela faça scroll */
+    background-color: #f4f4f4;
+}
+
+.flor {
+    width: 20px;
+    height: 20px;
+    background-color: #ff69b4;
+    position: absolute;
+    border-radius: 50%;
+    animation: surgir 5s linear infinite;
+}
+
+@keyframes surgir {
+    0% {
+        opacity: 0;
+        transform: translateY(0px) scale(0);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(-200px) scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-400px) scale(0);
+    }
+}
+
+/* Definindo cores diferentes para as flores */
+.flor:nth-child(2) {
+    background-color: #00ffff; /* Ciano */
+}
+
+.flor:nth-child(3) {
+    background-color: #ff6347; /* Tomate */
+}
+
+.flor:nth-child(4) {
+    background-color: #ffd700; /* Ouro */
+}
