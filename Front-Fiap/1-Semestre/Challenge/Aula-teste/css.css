@@ -1,0 +1,17 @@
+body { background-color: antiquewhite;}
+
+/* desktop */
+ /* if (screen >=1200 =< 1919) */
+@media (min-width:1200px) and (max-width:1919px) {
+   body{
+    background-color: aquamarine;
+   }
+}
+
+/* notebook */
+/* if (screen >=992 =< 1119) */
+@media (min-width:992px) and (max-width:1119px) {
+    body{
+        background-color: gainsboro;
+    }
+}
