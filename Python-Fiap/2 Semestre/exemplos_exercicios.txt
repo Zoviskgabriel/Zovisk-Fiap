@@ -1,0 +1,49 @@
+Exemplo 1: Crie uma tupla com 6 cidades do Brasil. Acesso o 4 elemento desta tupla e substitua uma cidade da sua escolha por outra cidade que não está na lista. Após isso, crie uma nova variável chamada cidades_brasil e concatene mais duas cidades (Rio de Janeiro e São Paulo) em apenas uma tupla.
+
+
+tupla 1 = ceara, amazonas, sergipe, rio grande do sul, amapá, mato grosso do sul.
+
+tupla_final = ceara, amazonas, sergipe, rio grande do sul, ______, mato grosso do sul, Rio de Janeiro, São Paulo
+
+________________________________________________________________________________________
+
+Exemplo 2 - Crie uma função para calcular a função 10x2 + 5x - 2. Crie uma estrutura de entrada para o usuário inserir o valor de x.
+
+Exemplo 3 - Crie uma função na qual retorne o cálculo de três equações, a primeira uma equação do segundo grau (10x2 + 5x - 2) com input do x pelo usuário. A segunda equação (F = m x a) com input da massa e da aceleração pelo usuário. A terceira equação (y**3 + 10*y**2 - 5*y +10. Crie três prints para retornar o cálculo das três equações.
+
+Exemplo 4 - Crie um dataframe contendo vendas de 6 diferentes frutas (banana = 100, maça = 150, pera = 120, melancia = 40, morango = 250, melão = 53). Crie uma estrutura para mostrar a fruta que mais vendeu, mostre a fruta que menos vendeu, mostre a média e a soma das vendas.
+
+Exemplo 5 -  Você é responsável por analisar os preços mensais do combustível ao longo de um ano em diferentes postos de gasolina. Utilize o numpy array para desenvolver seu código. Qual o mes o combustivel foi mais barato e mais caro? Qual a média de preço no ano?
+ 
+1 - 3,50
+2 - 3,55
+3 - 3,48
+4 - 3,60
+5 - 3,65
+6 - 3,70
+7 - 3,68
+8 - 3,75
+9 - 3,80
+10 - 3,78
+11 - 3,85
+12 - 3,90
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
