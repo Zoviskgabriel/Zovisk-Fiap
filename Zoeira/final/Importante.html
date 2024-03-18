@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para SOfia Mesquita</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(255, 0, 0); /* Cor inicial de fundo */
+            transition: background-color 2s; /* Transição de cor a cada 2 segundos */
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #myImage {
+            max-width: 100%;
+            max-height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Para o amor da minha vida.</h1>
+        <button id="startButton">Iniciar</button>
+        <div id="message" class="hidden"></div>
+        <button id="continueButton" class="hidden">Continuar</button>
+        <img id="myImage" src="IMG_2173.jpeg" class="hidden">
+        <button id="restartButton" class="hidden">Reiniciar</button>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const startButton = document.getElementById("startButton");
+            const message = document.getElementById("message");
+            const continueButton = document.getElementById("continueButton");
+            const myImage = document.getElementById("myImage");
+            const restartButton = document.getElementById("restartButton");
+            const title = document.querySelector("h1"); // Seleciona o título "Para Minha Namorada"
+
+            startButton.addEventListener("click", function () {
+                startButton.classList.add("hidden");
+                title.classList.add("hidden"); // Oculta o título "Para Minha Namorada"
+                message.textContent = "NÃO EXISTEM PALAVRAS PARA DESCREVER O QUANTO EU TE AMO SOFIA MESQUITA";
+                message.style.fontFamily = "Trebuchet MS";
+                message.classList.remove("hidden");
+                setTimeout(function () {
+                    message.classList.add("hidden");
+                    continueButton.classList.remove("hidden");
+                }, 5000); // Exibir a mensagem por 15 segundos
+            });
+
+            continueButton.addEventListener("click", function () {
+                continueButton.classList.add("hidden"); // Oculta o botão continuar
+                myImage.classList.remove("hidden");
+                document.body.style.overflow = "auto"; // Permitir rolar a página
+                setTimeout(function () {
+                    myImage.classList.add("hidden");
+                    restartButton.classList.remove("hidden");
+                }, 20000); // Exibir a imagem por 20 segundos
+            });
+
+            restartButton.addEventListener("click", function () {
+                location.reload();
+            });
+        });
+
+        // Função para trocar a cor de fundo a cada 2 segundos
+        setInterval(function () {
+            const r = Math.floor(Math.random() * 256);
+            const g = Math.floor(Math.random() * 256);
+            const b = Math.floor(Math.random() * 256);
+            document.body.style.backgroundColor = `rgb(${r},${g},${b})`;
+        }, 2000);
+    </script>
+</body>
+</html>
